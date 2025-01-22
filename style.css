@@ -17,27 +17,32 @@ img{
     margin-top: 0.6em;
     margin-bottom: 1.1em;
 }
+
+section {
+    margin: 0px 0.9em;
+}
 .intro, .info {
     font-family: 'Outfit';
-    margin: 0em 1.55em;
+    margin: inherit;
 }
-.intro{
-    font-size: 1.1rem;
+
+.intro {
+    font-size: 0.9rem;
     margin-bottom: 1em;
     color: rgb(31, 49, 79);
     line-height: 1.2;
 }
 
-.info{
-    font-size: 0.8rem;
+.info {
+    font-size: 0.7rem;
     padding-bottom: 2em;
     color: rgb(104, 119, 141);
     line-height: 1.4;
 }
 
-main{
+main {
     width: 17%;
-    min-width: 10rem;
+    min-width: 14rem;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
     background-color: white;
     border-radius: 16px;
